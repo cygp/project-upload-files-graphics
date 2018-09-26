@@ -19,7 +19,7 @@ function start() {
             break;
         case '/show':
 		    handlers.show(request, response);
-		    break
+		    break;
         default:
             handlers.error(request, response);
     }
